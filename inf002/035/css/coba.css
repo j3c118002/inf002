@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+}
+
+body {
+	color:#888;
+	font-family: "Open Sans", "Helvetica" , "Arial";
+	font-size: 14px;
+}
+
+.section {
+	padding: 20px 0;
+}
+
+.container {
+	width:1056px;
+	margin:auto;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.clear {
+	clear:both;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: white;
+    margin: 10px;
+}
+.bg-dblue{
+    background-color: #14496e;
+    color: beige;
+}
+.bg-band{
+    background-color:transparent;
+    position: center;
+}
+.bg-custom {
+    font-size: 35px;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    down: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.bg-new{
+    color:#14496e;
+}
+
+.bg-transparant{
+    opacity: 0.8;
+}
+#section1 {
+	background-color: #fbfbfb;
+    padding: 0;
+}
+
+#section1 ul>li {
+	display:inline;
+	
+}
+
+.grid {
+    width: 200px;
+    font-size: 60px;
+    color: #14496e;
+    display: grid;
+    grid-template-columns: 310px 1200px ;
+    grid-template-rows: auto auto auto;
+  }
+
+.grid-1 {
+    width: 200px;
+    font-size: 60px;
+    color: #14496e;
+    display: grid;
+    grid-template-columns: 1080px 720px 900px;
+    grid-template-rows: auto auto auto;
+  }
+
+.grid-2 {
+    float: center;
+    width: 200px;
+    font-size: 40px;
+    color: #14496e;
+    display: grid;
+    grid-template-columns: 460px 1200px ;
+    grid-template-rows: auto auto auto;
+  }
+
+.blue {
+     float: center;
+    color: #14496e;
+}
+.gbox{
+    float: left;
+    width: 800px;
+    font-size: 15px;
+    color: black;
+    padding: 5px;
+}
+
+.label {
+    font-size: 60px;
+    float: left;
+    width: 200px;
+    padding-right: 60px;
+}
+.right{
+        width: 60px;
+        float: left;
+}
+.right-2{
+    width: 400px;
+    float: left;
+}
+.left{
+    width: 60px;
+    padding: 50px;
+    float: right;
+}
+.left-2{
+    width: 500px;
+    float: left;
+}
+
+.leftnew{
+    width: 60px;
+    float: right;
+    padding: 100px;
+}
+#section9 {
+	background-color: #14496e;
+}
+
+
+
+
+
+

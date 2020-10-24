@@ -1,0 +1,34 @@
+.container {
+    position: center;
+	width: auto;
+	float: none;
+}
+.section {
+	padding: 20px 0;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: white;
+    margin: 10px;
+}
+.bg-dblue{
+    background-color: #14496e;
+    color: beige;
+}
+.bg-custom{
+    background-color: grey;
+    color: honeydew;
+}
+.bg-transparant{
+    background-color: #14496e;
+    opacity: 0,6;
+}
+#section1 {
+    background-color: white;
+    width: auto;
+	float: none;
+}
+#footer {
+	background-color: #14496e;
+}
